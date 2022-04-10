@@ -1,0 +1,31 @@
+{
+  "name": "create-element-utility",
+  "version": "1.0.0",
+  "description": "A createElement utility that creates an element with attributes, class names, events, and children elements",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmpaquett89/create-element-utility.git"
+  },
+  "author": "John Paquette",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmpaquett89/create-element-utility/issues"
+  },
+  "homepage": "https://github.com/jmpaquett89/create-element-utility#readme",
+  "devDependencies": {
+    "@babel/core": "7.17.8",
+    "@babel/preset-env": "7.16.11",
+    "babel-jest": "27.5.1",
+    "babel-loader": "8.2.4",
+    "jest": "27.5.1",
+    "jsdom": "19.0.0",
+    "webpack": "5.71.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
